@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            width: 100vw;
+            height: 100svh;
+        }
+        .canvas-wrapper {
+            margin: 0;
+            width: 100vw;
+            height: 100svh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        canvas#snake-canvas {
+            width: auto;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="canvas-wrapper">
+    <canvas id="snake-canvas"></canvas>
+</div>
+<script defer src="./index.js"></script>
+</body>
+</html>
